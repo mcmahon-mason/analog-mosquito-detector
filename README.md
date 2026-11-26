@@ -1,7 +1,7 @@
 # Active Analog Audio Filter & Mosquito Detector
 
 Multi-stage analog acoustic signal-processing and detection circuit targeting the female Asian Tiger Mosquito (Aedes albopictus) wingbeat harmonic frequency, designed in **LTspice** and validated on the bench against background noise.
-<img src="circuitoverview.png" alt="LTspice Schematic" width="750">
+<img src="circuitoverview.png" alt="LTspice Schematic" width="100%">
 ## System Architecture
 - **Input & Preamp:** MAX4466 microphone preamplifier stage
 - **Bandpass Filtering:** Four parallel 6th-order Multiple Feedback (MFB) active bandpass channels (cascaded 2nd-order stages) implemented with **MCP6284-E/P** quad op-amps, balancing steep roll-off, quality factor ($Q$), and component budget constraints
